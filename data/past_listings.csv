@@ -1,0 +1,201 @@
+item,category,condition,age_years,original_price_inr,sold_price_inr
+Physics Textbook,Books,Excellent,5,400,194
+Scientific Calculator,Calculators,Excellent,1,1200,847
+Campus Bicycle,Cycles,Excellent,5,4000,2363
+Engineering Mathematics,Books,Good,0,400,247
+Basic Calculator,Calculators,Good,4,1200,543
+City Bicycle,Cycles,Good,4,10000,4980
+Python Handbook,Books,Fair,2,400,172
+Scientific Calculator,Calculators,Fair,5,2000,598
+Mountain Bicycle,Cycles,Fair,1,8000,3749
+Physics Textbook,Books,Excellent,0,800,650
+Graphing Calculator,Calculators,Excellent,0,2000,1647
+City Bicycle,Cycles,Excellent,0,8000,6986
+Engineering Mathematics,Books,Good,2,600,333
+Scientific Calculator,Calculators,Good,5,1200,492
+Mountain Bicycle,Cycles,Good,1,4000,2525
+Physics Textbook,Books,Fair,5,800,249
+Basic Calculator,Calculators,Fair,1,1600,762
+Campus Bicycle,Cycles,Fair,5,4000,1492
+Data Structures Guide,Books,Excellent,4,600,322
+Scientific Calculator,Calculators,Excellent,2,1200,815
+Mountain Bicycle,Cycles,Excellent,1,4000,3239
+Physics Textbook,Books,Good,2,400,209
+Basic Calculator,Calculators,Good,1,2000,1195
+Campus Bicycle,Cycles,Good,3,6000,3230
+Data Structures Guide,Books,Fair,5,800,267
+Scientific Calculator,Calculators,Fair,4,2000,667
+Campus Bicycle,Cycles,Fair,4,10000,3764
+Data Structures Guide,Books,Excellent,0,600,475
+Basic Calculator,Calculators,Excellent,4,800,424
+Campus Bicycle,Cycles,Excellent,3,8000,5711
+Physics Textbook,Books,Good,5,400,172
+Graphing Calculator,Calculators,Good,5,1600,606
+City Bicycle,Cycles,Good,1,10000,6024
+Python Handbook,Books,Fair,5,800,274
+Graphing Calculator,Calculators,Fair,4,800,283
+Campus Bicycle,Cycles,Fair,5,6000,2117
+Data Structures Guide,Books,Excellent,4,400,226
+Graphing Calculator,Calculators,Excellent,0,800,690
+City Bicycle,Cycles,Excellent,1,4000,3028
+Engineering Mathematics,Books,Good,0,400,263
+Graphing Calculator,Calculators,Good,4,1200,506
+City Bicycle,Cycles,Good,4,6000,3004
+Python Handbook,Books,Fair,3,600,241
+Basic Calculator,Calculators,Fair,5,1600,482
+City Bicycle,Cycles,Fair,5,8000,2923
+Engineering Mathematics,Books,Excellent,3,400,236
+Scientific Calculator,Calculators,Excellent,2,800,537
+City Bicycle,Cycles,Excellent,4,6000,3547
+Engineering Mathematics,Books,Good,5,400,163
+Graphing Calculator,Calculators,Good,2,800,436
+Campus Bicycle,Cycles,Good,5,10000,4628
+Data Structures Guide,Books,Fair,5,1200,377
+Basic Calculator,Calculators,Fair,3,1200,430
+Mountain Bicycle,Cycles,Fair,3,8000,3374
+Engineering Mathematics,Books,Excellent,5,400,210
+Scientific Calculator,Calculators,Excellent,0,2000,1685
+Mountain Bicycle,Cycles,Excellent,1,6000,4513
+Data Structures Guide,Books,Good,1,1200,679
+Basic Calculator,Calculators,Good,1,800,481
+City Bicycle,Cycles,Good,0,4000,2806
+Python Handbook,Books,Fair,0,400,207
+Scientific Calculator,Calculators,Fair,1,2000,928
+Campus Bicycle,Cycles,Fair,3,4000,1634
+Data Structures Guide,Books,Excellent,3,800,511
+Basic Calculator,Calculators,Excellent,2,2000,1360
+Mountain Bicycle,Cycles,Excellent,4,10000,6023
+Engineering Mathematics,Books,Good,1,400,238
+Basic Calculator,Calculators,Good,5,1600,602
+City Bicycle,Cycles,Good,3,6000,3147
+Engineering Mathematics,Books,Fair,0,600,280
+Basic Calculator,Calculators,Fair,5,1200,362
+Mountain Bicycle,Cycles,Fair,1,4000,1997
+Python Handbook,Books,Excellent,5,800,433
+Graphing Calculator,Calculators,Excellent,5,1600,750
+Campus Bicycle,Cycles,Excellent,1,8000,6218
+Engineering Mathematics,Books,Good,0,1200,779
+Scientific Calculator,Calculators,Good,0,1200,807
+Mountain Bicycle,Cycles,Good,2,4000,2491
+Physics Textbook,Books,Fair,2,600,248
+Basic Calculator,Calculators,Fair,4,800,277
+Campus Bicycle,Cycles,Fair,2,4000,1927
+Python Handbook,Books,Excellent,2,400,276
+Basic Calculator,Calculators,Excellent,2,1600,1076
+Mountain Bicycle,Cycles,Excellent,2,6000,4457
+Engineering Mathematics,Books,Good,4,1200,533
+Scientific Calculator,Calculators,Good,0,2000,1398
+City Bicycle,Cycles,Good,0,8000,5690
+Data Structures Guide,Books,Fair,2,600,257
+Basic Calculator,Calculators,Fair,4,800,259
+City Bicycle,Cycles,Fair,1,4000,2048
+Engineering Mathematics,Books,Excellent,4,600,332
+Scientific Calculator,Calculators,Excellent,2,1600,1114
+City Bicycle,Cycles,Excellent,2,6000,4454
+Data Structures Guide,Books,Good,0,800,529
+Scientific Calculator,Calculators,Good,4,1200,556
+Campus Bicycle,Cycles,Good,1,6000,4019
+Data Structures Guide,Books,Fair,1,800,374
+Basic Calculator,Calculators,Fair,5,1200,356
+Mountain Bicycle,Cycles,Fair,0,10000,5528
+Data Structures Guide,Books,Excellent,1,600,447
+Scientific Calculator,Calculators,Excellent,2,1600,1104
+Mountain Bicycle,Cycles,Excellent,1,4000,3185
+Physics Textbook,Books,Good,2,800,452
+Basic Calculator,Calculators,Good,2,2000,1113
+Mountain Bicycle,Cycles,Good,2,4000,2273
+Data Structures Guide,Books,Fair,1,800,342
+Basic Calculator,Calculators,Fair,2,1600,664
+Campus Bicycle,Cycles,Fair,0,10000,5546
+Engineering Mathematics,Books,Excellent,2,400,271
+Scientific Calculator,Calculators,Excellent,4,1200,635
+City Bicycle,Cycles,Excellent,5,8000,4744
+Data Structures Guide,Books,Good,0,800,512
+Basic Calculator,Calculators,Good,2,2000,1115
+Mountain Bicycle,Cycles,Good,1,6000,3807
+Physics Textbook,Books,Fair,5,600,197
+Scientific Calculator,Calculators,Fair,3,800,294
+Mountain Bicycle,Cycles,Fair,3,8000,3391
+Python Handbook,Books,Excellent,5,600,309
+Basic Calculator,Calculators,Excellent,5,800,377
+Campus Bicycle,Cycles,Excellent,5,8000,4447
+Python Handbook,Books,Good,5,800,326
+Graphing Calculator,Calculators,Good,1,800,458
+City Bicycle,Cycles,Good,4,4000,2050
+Data Structures Guide,Books,Fair,4,600,217
+Basic Calculator,Calculators,Fair,3,2000,730
+Campus Bicycle,Cycles,Fair,5,4000,1542
+Data Structures Guide,Books,Excellent,3,600,350
+Scientific Calculator,Calculators,Excellent,0,1200,1033
+City Bicycle,Cycles,Excellent,3,6000,4201
+Data Structures Guide,Books,Good,4,800,386
+Basic Calculator,Calculators,Good,4,2000,917
+Mountain Bicycle,Cycles,Good,3,6000,3421
+Physics Textbook,Books,Fair,3,800,315
+Graphing Calculator,Calculators,Fair,4,2000,688
+Campus Bicycle,Cycles,Fair,3,4000,1746
+Engineering Mathematics,Books,Excellent,2,800,517
+Basic Calculator,Calculators,Excellent,1,1200,857
+Mountain Bicycle,Cycles,Excellent,1,6000,4442
+Python Handbook,Books,Good,2,1200,643
+Basic Calculator,Calculators,Good,3,2000,1028
+City Bicycle,Cycles,Good,5,4000,1999
+Physics Textbook,Books,Fair,3,1200,432
+Graphing Calculator,Calculators,Fair,2,2000,872
+Mountain Bicycle,Cycles,Fair,4,6000,2372
+Physics Textbook,Books,Excellent,3,1200,688
+Graphing Calculator,Calculators,Excellent,5,2000,994
+City Bicycle,Cycles,Excellent,1,4000,3277
+Data Structures Guide,Books,Good,4,400,174
+Graphing Calculator,Calculators,Good,1,2000,1164
+Mountain Bicycle,Cycles,Good,3,8000,4279
+Data Structures Guide,Books,Fair,2,1200,486
+Basic Calculator,Calculators,Fair,2,800,334
+Mountain Bicycle,Cycles,Fair,4,4000,1678
+Engineering Mathematics,Books,Excellent,1,400,297
+Scientific Calculator,Calculators,Excellent,0,1200,949
+Mountain Bicycle,Cycles,Excellent,4,6000,3652
+Python Handbook,Books,Good,5,400,170
+Scientific Calculator,Calculators,Good,3,1600,809
+Campus Bicycle,Cycles,Good,4,4000,2130
+Physics Textbook,Books,Fair,2,400,168
+Basic Calculator,Calculators,Fair,4,2000,669
+City Bicycle,Cycles,Fair,1,4000,1990
+Physics Textbook,Books,Excellent,1,400,294
+Basic Calculator,Calculators,Excellent,5,800,401
+City Bicycle,Cycles,Excellent,0,8000,6746
+Physics Textbook,Books,Good,2,400,217
+Scientific Calculator,Calculators,Good,0,2000,1397
+Mountain Bicycle,Cycles,Good,3,8000,4504
+Physics Textbook,Books,Fair,5,600,193
+Basic Calculator,Calculators,Fair,4,2000,675
+Campus Bicycle,Cycles,Fair,4,8000,3099
+Python Handbook,Books,Excellent,0,800,653
+Graphing Calculator,Calculators,Excellent,3,2000,1172
+Mountain Bicycle,Cycles,Excellent,2,6000,4353
+Physics Textbook,Books,Good,2,800,422
+Scientific Calculator,Calculators,Good,4,800,354
+Mountain Bicycle,Cycles,Good,0,6000,4242
+Data Structures Guide,Books,Fair,4,600,216
+Scientific Calculator,Calculators,Fair,3,800,287
+City Bicycle,Cycles,Fair,3,6000,2495
+Physics Textbook,Books,Excellent,2,1200,797
+Graphing Calculator,Calculators,Excellent,3,1600,939
+Campus Bicycle,Cycles,Excellent,2,8000,5639
+Python Handbook,Books,Good,5,600,247
+Graphing Calculator,Calculators,Good,1,1200,747
+Campus Bicycle,Cycles,Good,5,8000,4055
+Physics Textbook,Books,Fair,2,600,245
+Scientific Calculator,Calculators,Fair,0,1200,603
+Campus Bicycle,Cycles,Fair,4,8000,3242
+Engineering Mathematics,Books,Excellent,5,1200,587
+Graphing Calculator,Calculators,Excellent,4,1600,858
+Mountain Bicycle,Cycles,Excellent,2,6000,4603
+Data Structures Guide,Books,Good,3,400,207
+Basic Calculator,Calculators,Good,3,800,396
+City Bicycle,Cycles,Good,0,6000,3959
+Engineering Mathematics,Books,Fair,2,400,176
+Basic Calculator,Calculators,Fair,4,2000,687
+Mountain Bicycle,Cycles,Fair,1,10000,4892
+Engineering Mathematics,Books,Excellent,2,1200,774
+Scientific Calculator,Calculators,Excellent,4,800,454
