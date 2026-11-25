@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">GREEN Second Life</string>
+    <string name="title_activity_main">GREEN Second Life</string>
+    <string name="package_name">com.gla.green</string>
+    <string name="custom_url_scheme">com.gla.green</string>
+</resources>

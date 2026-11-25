@@ -1,26 +1,21 @@
 # GREEN · Second Life
 
-A campus marketplace prototype for books, calculators and cycles. All historical data is synthetic and no real users or phone numbers are included.
+React/Vite marketplace with Firebase auth, Firestore, Storage, Vercel API functions, PWA and Capacitor Android project. Work in progress: do not treat as production-ready until the limitations below are resolved and real Firebase integration tested.
 
-## Run
-Requires Python 3.9+ and no dependencies: `python server.py` (Windows: `py server.py`). Open http://localhost:8000. Listings persist in `data/market.db`; delete it to reset the demo. The synthetic data file is `data/past_listings.csv`.
+## Setup
 
-## Demo
-Enter Scientific calculator, Calculators, Good, age 2, original price ₹1,200. Click **See my fair price**, explain it, publish and search or filter for it. Swap is a listing preference, not a negotiation workflow.
+1. Install Node.js 20 or newer. Run `npm install`.
+2. Copy `.env.example` to `.env` and fill Firebase web values and Firebase Admin service account fields. Never commit `.env` or the private key.
+3. Enable Google and Anonymous authentication; add your local and hosted domains to Firebase Auth's authorized domains. Create Firestore and Storage. Deploy `firestore.rules` and `storage.rules` with Firebase CLI after reviewing them.
+4. Run `npm run seed` to write 200 fictional sales and category models. This replaces seed documents with the same deterministic IDs; use a development project.
+5. For local API routes, use `npx vercel dev` (plain `npm run dev` serves only Vite). Ensure server environment variables are available to Vercel CLI.
+6. Deploy: `npm install -g vercel`, `vercel login`, `vercel`, then configure all variables in the Vercel project settings and run `vercel --prod`. Set `ALLOWED_ORIGINS` to comma-separated trusted app origins.
+7. Android: set `VITE_API_BASE_URL` to the deployed HTTPS URL in `.env`, `npm run android:sync`, `npm run android:open`; in Android Studio install the SDK and build the debug APK. Or run `cd android && ./gradlew assembleDebug` (Windows: `gradlew.bat assembleDebug`). APK path: `android/app/build/outputs/apk/debug/app-debug.apk`.
 
-## How pricing works
-The API selects up to 12 synthetic historical sales of the same category and condition with the closest age. It multiplies the median of their sold/original price ratios by the new item's original price. The range is ±10%, a heuristic, not a confidence interval. The generator uses assumed category, age, and condition effects: these are not evidence of real-world prices. Brand, model, demand and inflation are not modeled; the displayed age span helps show weak matches.
+## Pricing
 
-## API contract
-- `POST /api/estimate`: JSON `{ "item":"Scientific calculator", "category":"Calculators", "condition":"Good", "age":2, "original":1200, "trade":"Sell" }` returns the suggested price, range, median retention percentage, count, age span and method.
-- `POST /api/listings`: same input, returns estimation plus stored listing ID.
-- `GET /api/listings?q=calculator&category=Calculators&condition=Good&max_price=1000`: all filters optional.
-- `GET /api/insights`: category and condition averages. Run `python insights.py` for condition and age breakdown.
+The seed generates 200 fictional records. For each category it fits `ln(sold/original) = condition intercept + shared age slope`, with group-centered least squares. Suggested ranges are illustrative ±10%, not confidence intervals. Synthetic data encodes assumed depreciation and cannot establish market price or real-world trends. An illustrative generator assumption is that calculators lose roughly 9.5% of retained value per year; the seed fits a slightly different value due to random variation and rounding.
 
-Run tests: `python -m unittest discover -s tests -v`.
+## Limitations
 
-## Research
-[OLX India](https://www.olx.in/blog/expert-advice/how-to-determine-the-right-price-of-second-hand-items/) discusses comparing second-hand items and considering their age and condition. Our dataset is not from OLX. [US EPA](https://www.epa.gov/electronics-batteries-management/electronics-basic-information-research-and-initiatives) describes how electronics reuse extends product life and reduces raw-material demand; no numerical environmental impact is claimed here.
-
-## Scope and time
-First 15 minutes: agree API contract. Next 30: verify pricing and UI. Next 25: add fictional demo listings and practice. Next 20: test gate scenario and filters. Final 10: present. No auth, payments, chat, photos or verified pricing are implemented.
+Firebase-dependent calls, authentication, uploads, seeding and Vercel deployment require your own configured project and have not been verified here. Firestore queries involving multiple filters and creation time may need composite indexes. Filtering and search are applied to each fetched page, so pages may be sparse and search does not cover the whole collection in one request. Marketplace listings are public; offers are restricted to participants. Anonymous account upgrades/merges, completed deal verification, trust badges, offers inbox, chat, comprehensive moderation, comprehensive security review, robust offline mutations, full accessibility, all requested visual assets and several requested animations are not implemented. Rate limits use Firestore counters and depend on trusted proxy IP headers; configure TTL cleanup for `_rate_limits.expiresAt` and production edge protections. The APK build could not run in this environment because Android SDK and Gradle downloads were unavailable. Do not publish for real users without addressing and testing these issues.

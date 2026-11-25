@@ -1,0 +1,8 @@
+rules_version = '2';
+service cloud.firestore { match /databases/{database}/documents {
+  match /listings/{id} { allow read: if true; allow create: if false; allow update: if request.auth != null && resource.data.ownerId == request.auth.uid && request.resource.data.ownerId == resource.data.ownerId && request.resource.data.completedDeals == resource.data.completedDeals; allow delete: if request.auth != null && resource.data.ownerId == request.auth.uid; }
+  match /models/{id} { allow read: if true; allow write: if false; }
+  match /sales/{id} { allow read: if true; allow write: if false; }
+  match /offers/{id} { allow read: if request.auth != null && (resource.data.buyerId == request.auth.uid || resource.data.ownerId == request.auth.uid); allow write: if false; }
+  match /{document=**} { allow read, write: if false; }
+} }
